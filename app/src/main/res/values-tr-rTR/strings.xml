@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">mySelf</string>
+    <string name="login_with_Facebook">Facebook ile giriş yap</string>
+    <string name="login_with_Google">Google ile giriş yap</string>
+    <string name="continue_without_account">Giriş yapmadan devam et</string>
+    <string name="lbl_tasks">Tasks</string>
+    <string name="lbl_task">Task</string>
+    <string name="logout">Logout</string>
+    <string name="login">Login</string>
+    <string name="lbl_task_details">Task Details</string>
+    <string name="lbl_goal_details">Goal Details</string>
+    <string name="lbl_add_task">New Task</string>
+    <string name="lbl_add_automated_task">New Automated Task</string>
+    <string name="lbl_auto_task_selector">Select Auto Task</string>
+    <string name="lbl_goals">Goals</string>
+    <string name="lbl_add_goal">New Goal</string>
+    <string name="lbl_statistics">Statistics</string>
+    <string name="save">Save</string>
+    <string name="unit">Unit</string>
+    <string name="time_plural">time(s)</string>
+    <string name="q_set_a_goal">Set a goal?</string>
+    <string name="q_track_per_unit">Track per unit?</string>
+    <string name="eg_units">e.g. hour(s), cup(s)</string>
+    <string name="eg_label">e.g. Exercise, Coffee, etc.</string>
+    <string name="label">Label</string>
+    <string name="lbl_guest">Guest</string>
+    <string name="lbl_application">Application</string>
+    <string name="lbl_network">Network</string>
+    <string name="lbl_minutes">minute(s)</string>
+    <string name="lbl_hours">hour(s)</string>
+    <string name="lbl_automation_is_enabled">Automation is enabled for this task!</string>
+    <string name="lbl_automation">Automation</string>
+    <string name="n_zero">0</string>
+    <string name="lbl_score">Score</string>
+    <string name="lbl_items">item(s)</string>
+    <string name="lbl_delete">Delete</string>
+    <string name="lbl_target">Target</string>
+    <string name="lbl_start">Start</string>
+    <string name="lbl_end">End</string>
+    <string name="lbl_successful">Successful</string>
+    <string name="lbl_in_progress">In progress</string>
+    <string name="lbl_failed">Failed</string>
+    <string name="lbl_skip">Skip</string>
+    <string name="lbl_done">Done</string>
+    <string name="fab_addManualTask">Add manual task</string>
+    <string name="fab_addAutomatedTask">Add automated task</string>
+    <string name="lbl_trends">Trends</string>
+    <string name="lbl_highest_days">Highest days</string>
+    <string name="err_add_task_label_required">Please enter a label for the task.</string>
+    <string name="confirm_delete_task">Do you really want to delete this habit?</string>
+    <string name="confirm_delete_goal">Do you really want to delete this goal?</string>
+    <string name="err_add_goal_task_required">Please select a habit.</string>
+    <string name="err_add_goal_target_value_required">Please set a valid target value.</string>
+    <string name="err_add_goal_valid_interval_required">Please set a valid interval.</string>
+    <string name="err_add_goal_valid_startDate">Please set a valid start date.</string>
+    <string name="err_login_facebook">Cannot authenticate via Facebook.</string>
+    <string name="err_login_google">Cannot authenticate via Google.</string>
+    <string name="err_login_user">Cannot authenticate the user.</string>
+    <string name="lbl_days_remaining">days remaining</string>
+
+    <string name="timeFrameInADay">in a day</string>
+    <string name="timeFrameInAWeek">in a week</string>
+    <string name="timeFrameInAMonth">in a month</string>
+
+    <string name="minMaxExactly">exactly</string>
+    <string name="minMaxOrMore">or more</string>
+    <string name="minMaxOrLess">or less</string>
+
+    <string name="autotask_callDuration">Call duration</string>
+    <string name="autotask_appUsage">App usage</string>
+    <string name="autotask_wentTo">Went to</string>
+
+    <string name="badge_name_1_1">Beginner</string>
+    <string name="badge_name_1_2">Adapt</string>
+    <string name="badge_name_1_3">Dedicated</string>
+    <string name="badge_name_2_1">Silver Star</string>
+    <string name="badge_name_2_2">Silver Expert</string>
+    <string name="badge_name_2_3">Silver Master</string>
+    <string name="badge_name_3_1">Golden Star</string>
+    <string name="badge_name_3_2">Golden Expert</string>
+    <string name="badge_name_3_3">Golden Master</string>
+
+    <string name="badge_desc_1_1">Enter data for 5 different tasks.</string>
+    <string name="badge_desc_1_2">Enter data for 5 consecutive days.</string>
+    <string name="badge_desc_1_3">Enter data for 30 consecutive days.</string>
+    <string name="badge_desc_2_1">Add a goal.</string>
+    <string name="badge_desc_2_2">Add 5 goals.</string>
+    <string name="badge_desc_2_3">Add 25 goals.</string>
+    <string name="badge_desc_3_1">Achieve a goal.</string>
+    <string name="badge_desc_3_2">Achieve 5 goals.</string>
+    <string name="badge_desc_3_3">Achieve 25 goals.</string>
+
+    <string name="tutorial_1">Welcome to MySelf!</string>
+    <string name="tutorial_1_desc">MySelf will help you track your daily routines.</string>
+    <string name="tutorial_2">Tasks to help track yourself.</string>
+    <string name="tutorial_2_desc">Setup your tasks to track your daily routines. Cups of coffee, hour of exercise.</string>
+    <string name="tutorial_3">Goals to help achieve the results.</string>
+    <string name="tutorial_3_desc">Set your own goals to help achieve your results.</string>
+    <string name="tutorial_4">Check your stats.</string>
+    <string name="tutorial_4_desc">Statistics will show you your tracking history.</string>
+
+    <string name="lblBadge_newBadge">New Achievement!</string>
+    <string name="lblBadge_completed">You\'ve completed this achievement!</string>
+    <string name="lbl_profile">Hesap</string>
+    <string name="lblBadge_nextLevel">Next Level:</string>
+
+    <string name="permission_required_apps">MySelf requires your permission to access application usage data.</string>
+    <string name="permission_error_apps">Please give permission to access application usage data.</string>
+    <string name="permission_required_phoneCalls">MySelf requires your permission to access phone call durations.</string>
+    <string name="permission_error_phoneCalls">Please give permission to access phone call durations.</string>
+</resources>

@@ -1,0 +1,51 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activity.MainActivity">
+
+    <group
+        android:id="@+id/grpMenuTasks"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/action_tasks"
+            android:title="@string/lbl_tasks" />
+
+        <item
+            android:id="@+id/action_add_task"
+            android:title="@string/lbl_add_task" />
+
+        <item
+            android:id="@+id/action_add_automated_task"
+            android:title="@string/lbl_add_automated_task" />
+
+    </group>
+
+    <group
+        android:id="@+id/grpMenuGoals"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/action_goals"
+            android:title="@string/lbl_goals" />
+
+        <item
+            android:id="@+id/action_add_goal"
+            android:title="@string/lbl_add_goal" />
+
+    </group>
+
+    <group
+        android:id="@+id/grpMenuProfile"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/action_statistics"
+            android:title="@string/lbl_statistics" />
+
+        <item
+            android:id="@+id/action_profile"
+            android:title="@string/lbl_profile" />
+
+    </group>
+
+</menu>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="BadgeView">
+        <attr name="iconSrc" format="reference" />
+        <attr name="badgeId" format="integer" />
+    </declare-styleable>
+    <declare-styleable name="GoalStatView">
+        <attr name="label" format="string" />
+        <attr name="total" format="integer" />
+        <attr name="color" format="color" />
+    </declare-styleable>
+    <declare-styleable name="LineStatView">
+        <attr name="text" format="string" />
+        <attr name="value" format="integer" />
+        <attr name="unit" format="string" />
+        <attr name="valueColor" format="color" />
+        <attr name="trend" format="integer" />
+    </declare-styleable>
+</resources>

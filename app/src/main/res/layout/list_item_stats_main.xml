@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="4dp"
+    app:cardElevation="4dp"
+    app:cardBackgroundColor="@color/cardBackground"
+    android:layout_margin="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#E2E2E7"
+            android:padding="4dp">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:id="@+id/imgAutomationType"
+                android:contentDescription="@string/imgContentDescription"
+                android:src="@drawable/ic_mobile_phone"
+                android:layout_margin="4dp"
+                android:layout_gravity="center_vertical"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/lblTask"
+                tools:text="Task Name"
+                android:layout_margin="4dp"
+                android:layout_gravity="center_vertical"
+                />
+
+        </LinearLayout>
+
+        <com.keplersegg.myself.components.PeekStatView
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_margin="16dp"
+            android:id="@+id/psvStats" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="4dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/lblTotal"
+                tools:text="0"
+                android:layout_gravity="center_vertical"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:gravity="end"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/lblUnits"
+                tools:text="cup(s)"
+                android:layout_marginStart="4dp"
+                android:layout_gravity="center_vertical"
+                />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

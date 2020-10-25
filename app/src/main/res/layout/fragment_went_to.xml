@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.WentToFragment"
+    android:background="@drawable/app_background"
+    android:backgroundTint="@color/colorPrimaryLight"
+    android:backgroundTintMode="screen">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rcylNetworks"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:listitem="@layout/list_item_simple"
+        />
+
+</FrameLayout>

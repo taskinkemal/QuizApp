@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#280b4b</color>
+    <color name="colorPrimaryTransparent">#55512da8</color>
+    <color name="colorPrimaryDark">#280b4b</color>
+    <color name="colorPrimaryLight">#E2E2E2</color>
+    <color name="colorAccent">#d500f9</color>
+    <color name="colorDivider">#999999</color>
+    <color name="colorBackground">#ffffff</color>
+    <color name="colorTasksBackground">#E2E2E2</color>
+    <color name="colorControlBackground">#263238</color>
+    <color name="colorControlManual">#e0e0e0</color>
+    <color name="colorControlAutoPhoneCall">#311b92</color>
+    <color name="colorControlAutoWifi">#311b92</color>
+    <color name="colorControlAutoAppUsdage">#311b92</color>
+    <color name="cardBackground">#f5f5f5</color>
+</resources>
